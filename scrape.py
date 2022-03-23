@@ -4,10 +4,9 @@ import csv
 # defining the api-endpoint 
 COLLECTIONS_API_ENDPOINT = "https://prod.api.sugarcosmetics.com/collections/prod/getCollectionv2"
 PRODUCT_API_ENDPOINT = "https://prod.api.sugarcosmetics.com/products/prod/getProductsv2?handle={}"
-# your API key here
+
 COLLECTION_HANDLES = ["makeup","blend-trend-makeup-brush", "skin-care-products"]
 
-# data to be sent to api
 
 SCRAPED_DATA = [["Title","Body","Vendor","Price","MRP","Images","Product","URL"]]
 PRODUCT_URL = "https://in.sugarcosmetics.com/products/{}"
